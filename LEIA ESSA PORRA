@@ -1,0 +1,15 @@
+cd C:\Users\\OneDrive\Desktop\projeto-merge
+
+dir
+npm start
+npm install electron --save-dev
+projeto-merge/
+├── bases/                # Pasta onde seus arquivos .xlsx estão armazenados
+│   ├── telefone.xlsx
+│   ├── seguro.xlsx
+│   └── gerente.xlsx
+├── index.html           # Seu arquivo HTML principal
+├── main.js              # Seu arquivo principal do Electron
+├── package.json         # Seu arquivo de configuração do projeto
+├── renderer.js          # Seu arquivo JavaScript do renderizador
+└── styles.css           # Seu arquivo de estilos
