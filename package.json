@@ -1,0 +1,16 @@
+{
+    "name": "projeto-merge",
+    "version": "1.0.0",
+    "description": "Descrição do seu projeto",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Seu Nome",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "^25.0.0",
+      "xlsx": "^0.18.5"
+    }
+  }
+  
