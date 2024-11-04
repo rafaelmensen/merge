@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mesclar Dados Excel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Mesclar Dados Excel</h1>
+
+    <label for="base-select">Selecione a base para merge:</label>
+    <select id="base-select">
+      <option value="telefone">Base 1 - Telefone</option>
+      <option value="seguro">Base 2 - Nome do Seguro</option>
+      <option value="gerente">Base 3 - Nome do Gerente</option>
+    </select>
+
+    <label for="file-upload">Envie seu arquivo Excel principal:</label>
+    <input type="file" id="file-upload" accept=".xlsx" />
+
+    <button id="process-button">Processar e Baixar Arquivo</button>
+
+    <p id="status"></p>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
