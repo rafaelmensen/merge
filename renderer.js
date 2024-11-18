@@ -39,6 +39,8 @@ function readExcelFile(file) {
   });
 }
 
+.query(instructions=="30")
+
 function mergeData(mainData, baseData, baseType) {
   const baseField = baseType;
   return mainData.map((mainRow) => {
